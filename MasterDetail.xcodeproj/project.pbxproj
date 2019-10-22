@@ -18,8 +18,8 @@
 		BF05E43A235E2D30009287F4 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF05E439235E2D30009287F4 /* APIClient.swift */; };
 		BF05E43C235E2D4B009287F4 /* CandidateAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF05E43B235E2D4B009287F4 /* CandidateAPIClient.swift */; };
 		BF05E43F235E2D96009287F4 /* CandidateListDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF05E43E235E2D96009287F4 /* CandidateListDataSource.swift */; };
+		BF939735235EFDD900F8543F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF939734235EFDD900F8543F /* ContentView.swift */; };
 		BFFD539C235E30F900327C84 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFD539B235E30F800327C84 /* SceneDelegate.swift */; };
-		BFFD539E235E312300327C84 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFD539D235E312300327C84 /* ContentView.swift */; };
 		BFFD53A1235E3DA400327C84 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFD53A0235E3DA400327C84 /* Coordinator.swift */; };
 		BFFD53A5235E46E600327C84 /* MockAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFD53A4235E46E600327C84 /* MockAPIClient.swift */; };
 		BFFD53A7235E470E00327C84 /* MockURLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFD53A6235E470E00327C84 /* MockURLSession.swift */; };
@@ -64,8 +64,8 @@
 		BF05E439235E2D30009287F4 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		BF05E43B235E2D4B009287F4 /* CandidateAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandidateAPIClient.swift; sourceTree = "<group>"; };
 		BF05E43E235E2D96009287F4 /* CandidateListDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandidateListDataSource.swift; sourceTree = "<group>"; };
+		BF939734235EFDD900F8543F /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = MasterDetail/ContentView.swift; sourceTree = SOURCE_ROOT; };
 		BFFD539B235E30F800327C84 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BFFD539D235E312300327C84 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../../../../../../Desktop/MasterDetail/MasterDetail/ContentView.swift; sourceTree = "<group>"; };
 		BFFD53A0235E3DA400327C84 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		BFFD53A4235E46E600327C84 /* MockAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAPIClient.swift; sourceTree = "<group>"; };
 		BFFD53A6235E470E00327C84 /* MockURLSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockURLSession.swift; sourceTree = "<group>"; };
@@ -126,7 +126,6 @@
 			children = (
 				BF05E3FD235E2B97009287F4 /* AppDelegate.swift */,
 				BFFD539B235E30F800327C84 /* SceneDelegate.swift */,
-				BFFD539D235E312300327C84 /* ContentView.swift */,
 				BF05E42D235E2C0A009287F4 /* ViewControllers */,
 				BF05E432235E2C6F009287F4 /* TableViewCells */,
 				BFFD539F235E3D8500327C84 /* Routing */,
@@ -166,6 +165,7 @@
 			children = (
 				BF05E42E235E2C26009287F4 /* CandidateListTableViewController.swift */,
 				BF05E430235E2C4D009287F4 /* CandidateDetailViewController.swift */,
+				BF939734235EFDD900F8543F /* ContentView.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -354,13 +354,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF05E3FE235E2B97009287F4 /* AppDelegate.swift in Sources */,
+				BF939735235EFDD900F8543F /* ContentView.swift in Sources */,
 				BF05E431235E2C4D009287F4 /* CandidateDetailViewController.swift in Sources */,
 				BFFD539C235E30F900327C84 /* SceneDelegate.swift in Sources */,
 				BF05E42F235E2C26009287F4 /* CandidateListTableViewController.swift in Sources */,
 				BF05E437235E2CE3009287F4 /* Candidate.swift in Sources */,
 				BF05E43F235E2D96009287F4 /* CandidateListDataSource.swift in Sources */,
 				BFFD53A1235E3DA400327C84 /* Coordinator.swift in Sources */,
-				BFFD539E235E312300327C84 /* ContentView.swift in Sources */,
 				BF05E434235E2C89009287F4 /* CandidateTableViewCell.swift in Sources */,
 				BF05E43C235E2D4B009287F4 /* CandidateAPIClient.swift in Sources */,
 				BF05E43A235E2D30009287F4 /* APIClient.swift in Sources */,
