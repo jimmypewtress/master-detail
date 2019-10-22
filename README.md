@@ -21,15 +21,15 @@ The code is written completely by myself (Jimmy Pewtress) using Swift to the fol
 - *Use custom cells to include an email address of the candidates in the cell.*
 
 ### Implementation
-#####Architecture
+##### Architecture
 This app uses a straightforward MVC architecture do to its simplicity, however for more complex projects I have also used [Clean Swift](https://clean-swift.com "Clean Swift").
 
 Everything is done using standard iOS components rather than relying on any third party libraries and dependency managers.
 
 The datasource for table/collection views is kept seperate from the view controller for ease of refactor and testibility.
 
-#####Navigation
+##### Navigation
 I have used a simple Coordinator pattern here as I favour view controllers not directly doing routing related tasks such as pushing other controllers on to navigation stacks. Having them independent makes it easier to change the position in flows etc
 
-#####UI
+##### UI
 In this particular instance I have manually coded the user interface, although I am equally happy using Interface Builder.
